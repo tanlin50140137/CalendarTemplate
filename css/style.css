@@ -1,2 +1,5 @@
 @CHARSET "UTF-8";
-.calender_box{border:1px solid red;}
+.calender_box{}
+.calender_click{border:1px solid red;width:14.1%;float:left;height:7em;}
+.rs_b{border-left:none;}
+.bottom_b{border-top:none;}
