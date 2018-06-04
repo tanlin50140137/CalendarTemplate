@@ -1,8 +1,15 @@
 @CHARSET "UTF-8";
 .calender_box{}
-.calender_click{border:1px solid #e0dcdc;width:14.04%;float:left;height:7em;}
+.calender_click{border:1px solid #e0dcdc;width:14.04%;float:left;height:7em;cursor:pointer;background:#419af5;}
+.calender_click:hover{background:#0f83f9;}
+.calender_click .action{background:#0f83f9;}
 .rs_b{border-left:none;}
 .bottom_b{border-top:none;}
 .calender_left{width:80%;float:left;}
+.glr{height:1.8em;text-align:center;line-height:2.4em;font-size:2em;color:beige;}
+.nlr{text-align:center;font-size:1.2em;color:beige;}
 .calender_right{border:1px solid #e0dcdc;width:19.65%;float:right;}
-.calender_show{height:15em;}
+.calender_show{border:1px solid #419af5;width:81%;height:15em;margin:1.3em auto;background:#419af5;border-radius: 0.3em;position:relative;left:0;}
+.calender_fstxt{border:1px solid #FFFFFF;height:9em;width:90%;margin: 4.9em auto;background:#FFFFFF;text-align:center;line-height:9em;}
+.calender_fs{border: 1px solid #c5c0c0;width:0.3em;position:absolute;left:2.5em;top:-0.4em;height:0.8em;background:beige;border-radius:2em;}
+.calender_fs2{border: 1px solid #c5c0c0;width:0.3em;position:absolute;right:2.5em;top:-0.4em;height:0.8em;background:beige;border-radius:2em;}
