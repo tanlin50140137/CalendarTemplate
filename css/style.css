@@ -1,5 +1,4 @@
 @CHARSET "UTF-8";
-.calender_box{}
 .calender_click{border:1px solid #e0dcdc;width:14.04%;float:left;height:7em;cursor:pointer;background:#419af5;}
 .calender_click:hover{background:#0f83f9;}
 .action_cal{background:#0f83f9;}
@@ -17,3 +16,6 @@
 .gonglirqi{position: absolute;top:0.6em;height:2em;width:100%;text-align:center;line-height:2em;color:#f5f5dc;font-size:medium;}
 .calender_fstxt2{width:95%;margin:auto;margin-top:1em;}
 .huili_all{height:1.55em;font-size:1.2em;text-align:center;overflow:hidden;color:#f5f5dc;}
+.yi_wli{float:left;width:45%;height:11.3em;overflow:hidden;}
+.ji_wli{float:right;width:45%;height:11.3em;overflow:hidden;}
+.yi_ji{text-align:center;color:#e6d5e6;}
