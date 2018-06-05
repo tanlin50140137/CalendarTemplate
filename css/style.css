@@ -1,8 +1,22 @@
 @CHARSET "UTF-8";
+.calender_head{border:1px solid #419af5;margin-bottom:0.4em;height:3.8em;background:#419af5;padding:0 0.6em;}
+.year_box{border:1px solid #e0dcdc;width:14%;margin-top:0.7em;height:2.2em;border-radius:0.3em;float:left;}
+.year_yyyy{border:none;width:100%;height:2em;color:#419af5;padding-left:0.5em;}
+.month_box{border:1px solid #e0dcdc;margin-top:0.7em;height:2.2em;border-radius:0.3em;float:left;margin-left:2em;}
+.month_up{border-right:1px solid #419af5;float:left;width:2.5em;height:2.2em;background:#ffffff;}
+.month_up p{font-size:1.5em;text-align:center;color:#419af5;cursor:pointer;}
+.month_up p:hover{color:#044a92;}
+.month_list{float:left;width:6em;}
+.month_next{border-left:1px solid #419af5;float:left;width:2.5em;height:2.2em;background:#ffffff;}
+.month_next p{font-size:1.5em;text-align:center;color:#419af5;cursor:pointer;}
+.month_next p:hover{color:#044a92;}
+
+.calender_click1{border:1px solid #e0dcdc;width:14.04%;float:left;height:7em;cursor:pointer;background:#419af5;}
 .calender_click{border:1px solid #e0dcdc;width:14.04%;float:left;height:7em;cursor:pointer;background:#419af5;}
 .calender_click:hover{background:#0f83f9;}
 .action_cal{background:#0f83f9;}
 .rs_b{border-left:none;}
+.rs_b2{border-left:none;}
 .bottom_b{border-top:none;}
 .calender_left{width:80%;float:left;}
 .glr{height:1.8em;text-align:center;line-height:2.4em;font-size:2em;color:beige;}
@@ -18,4 +32,6 @@
 .huili_all{height:1.55em;font-size:1.2em;text-align:center;overflow:hidden;color:#f5f5dc;}
 .yi_wli{float:left;width:45%;height:11.3em;overflow:hidden;}
 .ji_wli{float:right;width:45%;height:11.3em;overflow:hidden;}
-.yi_ji{text-align:center;color:#e6d5e6;}
+.yi_ji{text-align:center;color:#e6d5e6;font-size:12px;}
+.yjcolor{color:#f5f5dc;}
+.frist{height:1.9em;text-align:center;line-height:1.9em;color:beige;}
