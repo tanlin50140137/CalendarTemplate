@@ -1,5 +1,5 @@
 @CHARSET "UTF-8";
-.calender_head{border:1px solid #419af5;margin-bottom:0.4em;height:3.8em;background:#419af5;padding:0 0.6em;}
+.calender_head{border:1px solid #419af5;margin-bottom:0.4em;height:3.8em;background:#419af5;padding:0 0.6em;overflow:hidden;}
 .year_box{border:1px solid #e0dcdc;width:14%;margin-top:0.7em;height:2.2em;border-radius:0.3em;float:left;}
 .year_yyyy{border:none;width:100%;height:2em;color:#419af5;padding-left:0.5em;}
 .month_box{border:1px solid #e0dcdc;margin-top:0.7em;height:2.2em;border-radius:0.3em;float:left;margin-left:2em;}
@@ -10,6 +10,11 @@
 .month_next{border-left:1px solid #419af5;float:left;width:2.5em;height:2.2em;background:#ffffff;}
 .month_next p{font-size:1.5em;text-align:center;color:#419af5;cursor:pointer;}
 .month_next p:hover{color:#044a92;}
+.jiaqi_box{border:1px solid #e0dcdc;width:14%;margin-top:0.7em;height:2.2em;border-radius:0.3em;float:left;margin-left:2em;}
+.fanhui_box{border:1px solid #e0dcdc;width:14%;margin-top:0.7em;height:2.2em;border-radius:0.3em;float:left;margin-left:2em;background:#ffffff;}
+.fanhui_box p{font-size:1.25em;text-align:center;color:#419af5;cursor:pointer;line-height:1.8em;}
+.fanhui_box p:hover{color:#044a92;}
+.times_box{border:1px solid #e0dcdc;width:16.2%;margin-top:0.7em;height:2.2em;border-radius:0.3em;float:left;margin-left:2em;background:#ffffff;}
 
 .calender_click1{border:1px solid #e0dcdc;width:14.04%;float:left;height:7em;cursor:pointer;background:#419af5;}
 .calender_click{border:1px solid #e0dcdc;width:14.04%;float:left;height:7em;cursor:pointer;background:#419af5;}
